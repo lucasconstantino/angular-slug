@@ -1,7 +1,7 @@
 Angular Slug
 ============
 
-> An AngularJS wrapper arround the [slug](https://www.npmjs.com/package/slug) library.
+> An AngularJS wrapper arround the [slug](https://www.npmjs.com/package/slug) library. Simple as that.
 
 It exposes both an injectable service called ```slug``` and a filter, also called ```slug```.
 
@@ -25,10 +25,11 @@ We expose the slug service in the provider phase as the library itself. It makes
 ```
 module.config('slugProvider', function (slugProvider) {
   slugProvider.charmap['♥'] = 'freaking love';
+  slugProvider.defaults.modes.pretty.replacement = '_';
 });
 
 module.controller('MyCtrl', function (slug) {
-  slug('i ♥ unicode'); // i-love-unicode
+  slug('i ♥ unicode'); // i_love_unicode
 });
 ``` 
 
