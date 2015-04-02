@@ -3,7 +3,7 @@
   "main": "angular-slug.js",
   "version": "0.0.1",
   "authors": [
-    "Lucas Constantino Silva <lucasconstantinosilva@gmail.com>"
+    "Lucas Constantino Silva"
   ],
   "description": "An AngularJS wrapper arround the slug library",
   "keywords": [
