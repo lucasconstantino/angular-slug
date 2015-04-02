@@ -1,6 +1,6 @@
 /**
  * Angular Slug
- * @version v0.0.1
+ * @version v0.0.3
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 

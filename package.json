@@ -1,6 +1,6 @@
 {
   "name": "angular-slug",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An AngularJS wrapper arround the slug library",
   "main": "angular-slug.js",
   "homepage": "https://github.com/lucasconstantino/angular-slug",
