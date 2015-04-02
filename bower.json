@@ -1,0 +1,24 @@
+{
+  "name": "angular-slug",
+  "main": "angular-slug.js",
+  "version": "0.0.1",
+  "authors": [
+    "Lucas Constantino Silva <lucasconstantinosilva@gmail.com>"
+  ],
+  "description": "An AngularJS wrapper arround the slug library",
+  "keywords": [
+    "angular",
+    "AngularJS",
+    "slug",
+    "slugify",
+    "filter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "angular-slug",
+  "version": "0.0.1",
+  "description": "An AngularJS wrapper arround the slug library",
+  "main": "angular-slug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Constantino Silva",
+  "license": "MIT"
+}
