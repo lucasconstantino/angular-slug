@@ -4,22 +4,31 @@
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 
-angular.module('slug', [])
+(function() {
+  'use strict';
+
+  angular.module('slug', [])
+    .provider('slug', slugProvider)
+    .filter('slug', slugFilter);
+
+  slugProvider.$inject = [];
+  slugFilter.$inject = ['slug'];
 
   /**
    * Simple slug wrapper as provider.
    */
-  .provider('slug', function () {
-    slug.$get = function () {
+  function slugProvider() {
+    slug.$get = function() {
       return slug;
     }
-
     return slug;
-  })
+  }
 
   /**
    * Slugifies a given string.
    */
-  .filter('slug', function (slug) {
+  function slugFilter(slug) {
     return slug;
-  });
+  }
+
+})();
