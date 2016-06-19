@@ -1,9 +1,24 @@
-Angular Slug
-============
+[![GitHub version](https://badge.fury.io/gh/lucasconstantino%2Fangular-slug.svg)](https://badge.fury.io/gh/lucasconstantino%2Fangular-slug)
+[![npm version](https://badge.fury.io/js/angular-slug.svg)](http://badge.fury.io/js/angular-slug)
+[![Dependency Status](https://david-dm.org/lucasconstantino/angular-slug.svg)](https://david-dm.org/lucasconstantino/angular-slug)
+
+# Angular Slug
 
 > An AngularJS wrapper arround the [slug](https://www.npmjs.com/package/slug) library. Simple as that.
 
 It exposes both an injectable service called ```slug``` and a filter, also called ```slug```.
+
+## Installation
+
+**via Bower:**
+```
+bower install angular-slug --save
+```
+
+**via npm:**
+```
+npm install angular-slug --save
+```
 
 ## Usage
 
@@ -22,6 +37,7 @@ module.controller('MyCtrl', function (slug) {
 ## Configuration
 
 We expose the slug service in the provider phase as the library itself. It makes it easy to define new modes and/or modify any char replacements before the application start:
+
 ```
 module.config('slugProvider', function (slugProvider) {
   slugProvider.charmap['♥'] = 'freaking love';
@@ -31,16 +47,17 @@ module.config('slugProvider', function (slugProvider) {
 module.controller('MyCtrl', function (slug) {
   slug('i ♥ unicode'); // i_love_unicode
 });
-``` 
+```
 
 ### Execution Options
 
 The filter directly uses the service to transform the string. The service, in turn, is the actual slug library as is and accepts [any argument that the library accepts](https://www.npmjs.com/package/slug#options). For instance, to modify the replacement char at a slug execution, you can do as follows:
+
 ```
 module.controller('MyCtrl', function (slug) {
   slug('i ♥ unicode', '_'); // i_love_unicode
 });
-``` 
+```
 
 ## License
 
