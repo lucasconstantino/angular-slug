@@ -1,6 +1,6 @@
 [![GitHub version](https://badge.fury.io/gh/lucasconstantino%2Fangular-slug.svg)](https://badge.fury.io/gh/lucasconstantino%2Fangular-slug)
 [![npm version](https://badge.fury.io/js/angular-slug.svg)](http://badge.fury.io/js/angular-slug)
-[![Dependency Status](https://david-dm.org/lucasconstantino/angular-slug.svg)](https://david-dm.org/lucasconstantino/angular-slug)
+[![Dependency Status](https://david-dm.org/lucasconstantino/angular-slug.svg)](https://david-dm.org/lucasconstantino/angular-slug) [![Greenkeeper badge](https://badges.greenkeeper.io/lucasconstantino/angular-slug.svg)](https://greenkeeper.io/)
 
 # Angular Slug
 
